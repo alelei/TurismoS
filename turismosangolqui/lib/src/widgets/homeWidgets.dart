@@ -3,7 +3,6 @@ import 'package:turismosangolqui/src/list/menusList.dart';
 
 
 
-
 class HomeWidget extends StatefulWidget {
   HomeWidget({Key? key}) : super(key: key);
 
@@ -19,9 +18,11 @@ class _HomeWidgetState extends State<HomeWidget> {
 
     return Container(
       child: Column(
-        
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-        
+          Text("", style: Theme.of(context).textTheme.bodyText1),          //Etilos 
+          Text("", style: Theme.of(context).textTheme.bodyText1),
           Expanded(child: SingleChildScrollView(child: menusList()))
         ],
       ),
