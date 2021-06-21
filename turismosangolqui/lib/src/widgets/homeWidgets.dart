@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:turismosangolqui/src/list/menuList.dart';
+import 'package:turismosangolqui/src/list/menusList.dart';
+
 
 
 
@@ -18,11 +19,9 @@ class _HomeWidgetState extends State<HomeWidget> {
 
     return Container(
       child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        
         children: [
-          Text("", style: Theme.of(context).textTheme.bodyText1),          //Etilos 
-          Text("", style: Theme.of(context).textTheme.bodyText1),
+        
           Expanded(child: SingleChildScrollView(child: menusList()))
         ],
       ),
