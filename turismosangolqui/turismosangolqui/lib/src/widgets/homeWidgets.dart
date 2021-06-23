@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:turismosangolqui/src/list/menusList.dart';
-
-
+import 'package:turismosangolqui/src/list/menuList.dart';
+import 'package:turismosangolqui/src/list/atractive_list.dart';
 
 
 class HomeWidget extends StatefulWidget {
